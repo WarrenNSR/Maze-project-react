@@ -2,7 +2,7 @@
 ![Screenshot](https://github.com/WarrenNSR/Maze-project-react/assets/129788714/626a4765-43e6-4a48-9338-20dd603983ab)
 
 
-
+Try the game: https://warrennsr.github.io/Maze-project-react/
 
 
 # Getting Started with Create React App
