@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/WarrenNSR/Maze-project-react/static/css/main.e821f4c7.css",
-    "main.js": "/WarrenNSR/Maze-project-react/static/js/main.24d16273.js",
-    "static/js/787.8f210462.chunk.js": "/WarrenNSR/Maze-project-react/static/js/787.8f210462.chunk.js",
-    "static/media/mazeBG.jpg": "/WarrenNSR/Maze-project-react/static/media/mazeBG.fe6f3a56705e601d1dd7.jpg",
-    "static/media/background.jpg": "/WarrenNSR/Maze-project-react/static/media/background.b32c4f32dc4617bfcf7c.jpg",
-    "static/media/CurrentPos.png": "/WarrenNSR/Maze-project-react/static/media/CurrentPos.4a544737001246dec889.png",
-    "static/media/ARCADECLASSIC.TTF": "/WarrenNSR/Maze-project-react/static/media/ARCADECLASSIC.8f36b955d042951fd3af.TTF",
-    "index.html": "/WarrenNSR/Maze-project-react/index.html",
-    "main.e821f4c7.css.map": "/WarrenNSR/Maze-project-react/static/css/main.e821f4c7.css.map",
-    "main.24d16273.js.map": "/WarrenNSR/Maze-project-react/static/js/main.24d16273.js.map",
-    "787.8f210462.chunk.js.map": "/WarrenNSR/Maze-project-react/static/js/787.8f210462.chunk.js.map"
+    "main.css": "/Maze-project-react/static/css/main.e69b60dd.css",
+    "main.js": "/Maze-project-react/static/js/main.773b69e2.js",
+    "static/js/787.8f210462.chunk.js": "/Maze-project-react/static/js/787.8f210462.chunk.js",
+    "static/media/mazeBG.jpg": "/Maze-project-react/static/media/mazeBG.fe6f3a56705e601d1dd7.jpg",
+    "static/media/background.jpg": "/Maze-project-react/static/media/background.b32c4f32dc4617bfcf7c.jpg",
+    "static/media/CurrentPos.png": "/Maze-project-react/static/media/CurrentPos.4a544737001246dec889.png",
+    "static/media/ARCADECLASSIC.TTF": "/Maze-project-react/static/media/ARCADECLASSIC.8f36b955d042951fd3af.TTF",
+    "index.html": "/Maze-project-react/index.html",
+    "main.e69b60dd.css.map": "/Maze-project-react/static/css/main.e69b60dd.css.map",
+    "main.773b69e2.js.map": "/Maze-project-react/static/js/main.773b69e2.js.map",
+    "787.8f210462.chunk.js.map": "/Maze-project-react/static/js/787.8f210462.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e821f4c7.css",
-    "static/js/main.24d16273.js"
+    "static/css/main.e69b60dd.css",
+    "static/js/main.773b69e2.js"
   ]
 }
