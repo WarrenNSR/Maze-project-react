@@ -1,0 +1,268 @@
+html, body, #root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  box-sizing: content-box;
+}
+
+.TitleScreen {
+  background-image: url(../public/background.jpg);
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+  background-image: url(../public/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TitleScreen:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'ArcadeClassic';
+  src: url(../public/ARCADECLASSIC.TTF);
+}
+
+.TitleScreen h1 {
+  font-family: 'ArcadeClassic';
+  font-size: 20rem;
+  margin-bottom: 20px;
+  color: rgb(10, 243, 212);
+}
+
+@media screen and (max-width: 600px) {
+  .TitleScreen h1 {
+    font-size: 8rem;
+  }
+}
+
+.TitleScreen button {
+  font-family: 'ArcadeClassic';
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.TitleScreen button:hover {
+  background-color: rgb(107, 24, 155);
+}
+
+.level-indicator {
+  font-family: 'ArcadeClassic';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgb(10, 243, 212);
+  font-size: 1.5rem;
+}
+
+.home-button {
+  font-family: 'ArcadeClassic';
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: rgb(107, 24, 155);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .TitleScreen #maze,
+  .TitleScreen .level-indicator,
+  .TitleScreen .home-button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .TitleScreen .level-indicator,
+  .TitleScreen .home-button,
+  .TitleScreen #maze {
+    font-size: 2rem;
+  }
+}
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-gap: 10px;
+  width: min-content;
+}
+
+.floating-buttons button {
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: blue; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.floating-buttons button:hover {
+  background-color: rgb(107, 24, 155); 
+}
+
+.floating-buttons button:nth-child(1) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.floating-buttons button:nth-child(3) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.floating-buttons button:nth-child(2) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.floating-buttons button:nth-child(4) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.floating-buttons button:nth-child(5) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.App {
+  background-image: url(../public/mazeBG.jpg);
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+}
+
+.App:focus {
+  outline: none;
+}
+
+.setting {
+  align-self: flex-start;
+  padding: 5px 10px;
+}
+
+.setting button {
+  font-size: 15px;
+}
+
+.setting input {
+  font-size: 20px;
+}
+
+.topWall {
+  border-top: solid #ffd319;
+}
+
+.rightWall {
+  border-right: solid #ffd319;
+}
+
+.bottomWall {
+  border-bottom: solid #ffd319;
+}
+
+.leftWall {
+  border-left: solid #ffd319;
+}
+
+.sol div {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  background: peachpuff;
+  display: inline-block;
+}
+
+.currentPosition div {
+  background-image: url(../public/CurrentPos.png);
+  background: red;
+  height: 100%;
+  width: 100%;
+  border-radius: 35.74%;
+  display: block;
+}
+
+.destination div {
+  background-image: url(../public/CurrentPos.png);
+  background: rgb(2, 233, 2);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+#maze {
+  margin-top: 15px;
+  border-collapse: collapse;
+  max-width: 80vw;
+}
+
+#maze td {
+  height: 35px;
+  width: 35px;
+  max-width: 100px;
+}
+
+.info {
+  margin-top: 20px;
+  width: 100%;
+  background: white;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.info p {
+  text-transform: uppercase;
+  color: rgb(10, 243, 212);
+}
